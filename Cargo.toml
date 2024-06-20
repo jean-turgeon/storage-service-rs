@@ -1,0 +1,14 @@
+[package]
+name = "storage-service-rs"
+version = "0.1.0"
+description = "A demo project of a block storage service for parquet datasets with a REST &amp; GraphQL API to query the data."
+repository = "https://github.com/jean-turgeon/storage-service-rs"
+readme = "README.md"
+license = "GNU GENERAL PUBLIC LICENSE"
+edition = "2021"
+
+[[bin]]
+name = "storage-service-rs"
+path = "src/main.rs"
+
+[dependencies]
